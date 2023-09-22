@@ -22,7 +22,8 @@ const GlobalStock = () => {
 
   /** 이벤트 리스트 서버에서 불러와서 events 상태에 set */
   const fetchEvents = async () => {
-    const response = await getStockGlobalEvents();
+    const response = await getStockGlobalEvents(); 
+    console.log(response);
     setEvents(response);
   };
 

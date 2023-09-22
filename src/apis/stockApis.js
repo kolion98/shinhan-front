@@ -9,7 +9,7 @@ export const getStockGlobalEvents = () => {
   return axios
     //After
     .get(`${SERVER_URL}`)
-    .then((response) => response.data.getStockGlobalEvents);
+    .then((response) => response.data.globalStockEvents);
     //Before
     // .get(`${SERVER_URL}/globalStockEvents`)
     // .then((response) => response.data);
