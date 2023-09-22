@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    padding: 0 16px;
+    border-bottom: solid 1px silver;
+}
+
+.rightButtonContainer {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.roundButton {
+    padding: 16px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #0094ff 0%, #0046ff 114.29%);
+
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.circleButton {
+    background-color: #EAECEF;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
